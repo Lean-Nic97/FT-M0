@@ -9,4 +9,13 @@ p {
 
 .amarillo {
   color: yellow;
+  font-size: 50px;
+}
+
+#unico {
+  color: green;
+}
+
+#unico2 {
+  font-size: 100px;
 }
