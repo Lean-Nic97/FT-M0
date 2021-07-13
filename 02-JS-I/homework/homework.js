@@ -274,13 +274,26 @@ function esVocal(letra){
   // } else if (letra === "u") {
   //   return "Es vocal";
   // };
-  var a = letra;
+  var vocales = ["a", "e", "i", "o", "u"];
+
   if (a === "a" || a === "e" || a === "i" || a === "o" || a === "u") {
     return "Es vocal";
   };
 }
 
+function returnValueOfArray(array) {
+  var suma = 0;
+  var nuevoArray = [];
+  for (var i = 0; i < array.length; i++) {
+    nuevoArray.push(array[i])
+  };
+  console.log(nuevoArray);
+  array.splice(2, 0, 300, 400);
+  console.log(array)
+  return suma;
+};
 
+console.log(returnValueOfArray([100, 4, 56, 78, 200, 120, 7, 160, 148, 22]))
 
 // No modificar nada debajo de esta línea
 // --------------------------------
